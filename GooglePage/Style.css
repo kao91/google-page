@@ -1,0 +1,61 @@
+*{
+    font-family: roboto;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.Header{
+    display: flex;
+    float: right;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+#Menu,#PicProfil{
+    width: 60%;
+}
+.element{
+	padding-right: 100px;
+}
+.icon1,.icon2{
+    width: 60px;
+}
+main{
+    padding-top: 13%;
+    padding-left: 33%;
+}
+input{
+    height: 50px;
+    width: 570px;
+    border: 1px groove rgb(189, 183, 189);
+    border-radius: 30px;
+    margin-bottom: 2%;
+}
+.logoGoog,.button{
+    padding-left: 150px;
+}
+.button{
+    padding-left: 180px;
+    padding-bottom: 2%;
+}
+button{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+	font-size: 12px;
+}
+button:hover{
+    box-shadow: black 0px 5px 15px;
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+footer{
+    margin-top: 300px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+}
+.element a:hover{
+    text-decoration: underline;
+}
